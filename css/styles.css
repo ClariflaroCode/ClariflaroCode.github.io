@@ -1,0 +1,343 @@
+main{
+    margin: 5%;
+}
+/*#7C44BC   #64B4C4
+#B48CF2   #3F278A
+#5C50B1   #3539A4
+#5F84DB   #5A63CB
+#3F56AE   #1C1D6F
+#96CCF9   #9294E4
+#060941   #C8DEF8
+*/
+/*
+    .sobre-mi__titulo,
+    .proyectos__titulo,
+    .experiencia__titulo,
+    .estudios__titulo,
+    .habilidades__titulo,
+    .contacto__encabezado{
+        text-align: center;
+    }
+*/
+.fuck-you-uml-no-cambiare-todas-las-clases{
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+.encabezado-principal {
+    background-color: aliceblue;
+    height: 10vh;
+    margin-top: 0;
+}
+.encabezado-principal__barra-navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0% 2%;
+}
+.encabezado-principal__opciones-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.encabezado-principal__nav-lista-menu-item a{
+    text-decoration: none;
+    color: black;
+}
+.encabezado-principal__nav-lista-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+
+/*              PRESENTACION                */
+.presentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px ;
+}
+.presentacion__contenedor-boton-h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.presentacion__imagen-contenedor{
+    height: 100%; /*POR QUé SI YO QUITO ESTA LINEA CAMBIA EL TAMAÑO?*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.presentacion__imagen{
+    border-radius: 100%;
+    height: 70%;
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+}
+
+.presentacion__boton{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    width: 20%;
+    background-color: rgb(15, 88, 66);
+    border-style: outset;
+    border-width: 2px;
+    border-color: #111111;
+}
+
+
+/*          PROYECTOS                   */
+
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.proyectos__item{
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 20%;
+    border-radius: 2%;
+    margin: 1%;
+}
+.proyectos__item-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.proyectos__item-tecnologia{
+    margin: 20px;
+}
+
+/*                  SOBRE MI                            */
+
+.sobre-mi{
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+    border-radius: 2%;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+
+
+
+/*                  EXPERIENCIA LABORAL                 */
+
+
+.experiencia__auxiliar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.experiencia__materia{
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 40%;
+    border-radius: 2%;   
+    margin: 2%; 
+}
+
+
+/*              ESTUDIOS                            */
+.estudios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.estudios__contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.estudios__cursos-item{
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 40%;
+    border-radius: 2%;   
+    margin: 2%;     
+}
+.estudios__universitarios {
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 96%;
+    border-radius: 2%;   
+    margin: 2%;
+    box-sizing: border-box;
+         
+}
+.estudios__idiomas {
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 20%;
+    border-radius: 2%;   
+    margin: 2%;      
+}
+
+
+
+
+/*              SECCION HABILIDADES:                */
+
+
+.habilidades__tecnicas-figura{
+    height: 50px;
+}
+.habilidades__tecnicas-img{
+    height: 100%;
+}
+.habilidades__tecnicas-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.habilidades__metodologias-herramientas-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+.habilidades__metodologias-herramientas-figura{
+    height: 50px;
+}
+.habilidades__metodologias-herramientas-img{
+    height: 100%;
+}
+.habilidades__layout-logos-experiencia-adicional{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.habilidades__layout-aplicaciones-practicas-habilidades-blandas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.habilidades__loguitos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+.habilidades__tecnicas-experiencia-adicional {
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 20%;
+    border-radius: 2%;   
+    margin: 2%;       
+}
+.habilidades__blandas{
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 50%;
+    border-radius: 2%;   
+    margin: 2%;     
+}
+
+.habilidades__metodologias-herramientas-explicacion-practica{
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    padding: 5%;
+    text-align: center;
+    width: 50%;
+    border-radius: 2%;   
+    margin: 2%;  
+}
+
+
+
+/*              SECCION CONTACT ME                  */
+
+.contacto__contenedor-gif-form-gif {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 50px;
+}
+.contacto__pusheen{
+    height: 100px;
+}
+#contacto__pusheen-hi {
+    height: 180px;
+}
+.contacto__formulario{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
+    border-radius: 2%;   
+
+    
+}
+.contacto__input{
+    margin: 1% 0;
+}
+.contacto__enviar{
+    margin: 2% 0;
+    width:20%;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    width: 20%;
+    background-color: rgb(15, 88, 66);
+}
+.contacto__textarea{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 200px;
+    resize: vertical;
+    overflow-y: scroll;
+}
+
+
+/*              footer                              */
+.footer {
+    height: 100px;
+    background-color: aliceblue;
+}
+.footer__a
+{
+    text-decoration: none;
+}
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer__figure{
+    width: 50px;
+    height: 50px;
+}
+.footer__img{
+    height: 70%;
+}
