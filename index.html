@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="img/gif/pusheen-hi3.png">
 </head>
-<body>
-    <header class="encabezado-principal">
-      <nav class="encabezado-principal__barra-navegacion">
+<body id="body">
+    <header id="encabezado-principal" class="encabezado-principal">
+      <nav id="encabezado-principal__barra-navegacion" class="encabezado-principal__barra-navegacion">
         <!--        
         <div class="encabezado-principal__menu">
           <ul class="encabezado-principal__menu-lista">
@@ -18,13 +18,13 @@
         </div>-->
         <div class="encabezado-principal__nav-menu-items">
           <ul class="encabezado-principal__nav-lista-menu">
-            <li class="encabezado-principal__nav-lista-menu-item"><a href="#">INICIO</a></li>
-            <li class="encabezado-principal__nav-lista-menu-item"><a href="#sobre-mi">SOBRE MÍ</a></li>
-            <li class="encabezado-principal__nav-lista-menu-item"><a href="#proyectos__titulo">PROYECTOS</a></li>
-            <li class="encabezado-principal__nav-lista-menu-item"><a href="#experiencia__titulo">EXPERIENCIA</a></li>
-            <li class="encabezado-principal__nav-lista-menu-item"><a href="#estudios__titulo">ESTUDIOS</a></li>
-            <li class="encabezado-principal__nav-lista-menu-item"><a href="#habilidades">HABILIDADES</a></li>
-            <li class="encabezado-principal__nav-lista-menu-item"><a href="#contacto">CONTACTO</a></li>
+            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a"href="#">INICIO</a></li>
+            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#sobre-mi">SOBRE MÍ</a></li>
+            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#proyectos__titulo">PROYECTOS</a></li>
+            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#experiencia__titulo">EXPERIENCIA</a></li>
+            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#estudios__titulo">ESTUDIOS</a></li>
+            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#habilidades">HABILIDADES</a></li>
+            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#contacto">CONTACTO</a></li>
           </ul>  
           
         </div>
@@ -37,7 +37,7 @@
               </select>
             </li>
             <li class="encabezado-principal__opciones-item">
-              <input type="checkbox" id="switch-dark-light-mode" name="dark-light-mode" class="encabezado-principal__switch">
+              <input type="checkbox" id="switch-dark-light-mode" name="dark-light-mode" class="encabezado-principal__switch" value="oscuro">
             </li>
           </ul>
         </div>
@@ -505,9 +505,9 @@
 
 
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <ul class="footer__list">
-        <li class="footer__list-item">
+        <li  class="footer__list-item">
           <a href="https://www.linkedin.com/in/julieta-watts" class="footer__a" target="_blank">
             <figure class="footer__figure">
               <img src="img/linkedin-logo.png" alt="linkedIn-personal" class="footer__img">
@@ -516,7 +516,7 @@
 
           </a>
         </li>
-        <li class="footer__list-item">
+        <li  class="footer__list-item">
           <a href="https://github.com/ClariflaroCode" class="footer__a" target="_blank">
             <figure class="footer__figure">
               <img src="img/github.png" alt="github-personal" class="footer__img">
@@ -526,5 +526,6 @@
         </li>
       </ul>
     </footer>
+    <script type="text/Javascript" src="js/main.js"></script>
 </body>
 </html>
