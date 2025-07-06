@@ -15,6 +15,7 @@ li {
 }
 h1,h2,h3,h4 {
     margin: 1em 0;
+
 }
 .encabezado-principal__switch {
     opacity: 0; /*esto hace que siga en el flujo pero no se vea*/
@@ -28,6 +29,10 @@ h1,h2,h3,h4 {
     margin: 0;
     box-sizing: border-box;
     gap: 1em;
+}
+#encabezado-principal__idioma-select {
+    border: 1px solid white;
+    border-radius: 5%;
 }
 .fuck-you-uml-no-cambiare-todas-las-clases{
     text-align: center;
@@ -58,13 +63,16 @@ h1,h2,h3,h4 {
 /*              PRESENTACION                */
 .presentacion {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
-    height: 500px;
+    box-sizing: border-box;
+    gap: 2em;
+    margin-bottom: 5em;
 }
 .presentacion__imagen{
     border-radius: 100%;
-    height: 20em;
+    height: 15em;
     box-shadow: 0 0 20px 5px rgb(211, 235, 227);
 }
 .presentacion__titulo {
@@ -75,16 +83,14 @@ h1,h2,h3,h4 {
 .presentacion__subtitulo {
     font-weight: 100;
 }
-.presentacion__contenido {
-    width: 50em;
-}
+
 .button{
     border: none;
     color: white;
     font-weight: bolder;
     border-radius: 10px;
-    padding: 2%;
-    width: 20%;
+    padding: 1rem;
+    width: 10em;
     background-color: rgb(15, 88, 66);
     margin: 1em;
 }
@@ -99,17 +105,20 @@ h1,h2,h3,h4 {
     gap: 2em;
 }
 .proyectos__item{
+    box-sizing: border-box;
     box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
+    padding: 1em 2em;
+    width: 100%;
     text-align: center;
-    width: 20%;
     border-radius: 2%;
 }
 .proyectos__item-lista{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     gap: 2em;
     margin: 1em;
+    box-sizing: border-box;
 }
 
 
@@ -117,12 +126,11 @@ h1,h2,h3,h4 {
 
 .card{
     box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
+    box-sizing: border-box;
     text-align: center;
     width: 100%;
+    padding: 10%;
     border-radius: 2%;
-    margin-top: 2%;
-    box-sizing: border-box;
 }
 
 
@@ -132,6 +140,7 @@ h1,h2,h3,h4 {
 
 .experiencia__auxiliar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
 
@@ -143,16 +152,21 @@ h1,h2,h3,h4 {
 .estudios {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
 .estudios__contenedor{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     gap: 2em;
 }
-#section-idiomas {
-    width: 20em;
-    margin: 0;
+
+.estudios__universitarios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
 
@@ -167,18 +181,17 @@ h1,h2,h3,h4 {
 }
 .habilidades__tecnicas-lista, .habilidades__metodologias-herramientas-lista {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 4em;
     margin: 2em;
 }
 .habilidades__layout-aplicaciones-practicas-habilidades-blandas{
     display: flex;
-    justify-content: space-evenly;
-    gap: 2em;
+    flex-wrap: wrap;
+    gap: 1em;
 }
-.habilidades__blandas{
-    width: 50%;
-}
+
 
 /*              SECCION CONTACT ME                  */
 
@@ -274,4 +287,57 @@ h1,h2,h3,h4 {
 }
 .fondo_oscuro .encabezado-principal__nav-lista-menu-item:active {
     color: rgb(73, 73, 180);
+}
+
+@media (width >= 768px) {
+    .presentacion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+    }
+    .card {
+        padding: 2%;
+    }
+    .experiencia__auxiliar{
+        flex-wrap: nowrap;
+    }
+    .estudios__contenedor{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .estudios {
+        flex-wrap: nowrap;
+    }
+    #section-idiomas {
+        width: 20em;
+        margin: 0;
+    }
+    .button {
+        padding: 2%;
+    }
+    .habilidades__layout-aplicaciones-practicas-habilidades-blandas{
+        flex-wrap: nowrap;
+    }
+    .habilidades__blandas{
+        width: 50%;
+    }
+    .presentacion__contenido {
+        width: 50em;
+    }
+    .presentacion {
+        flex-direction: row;
+        height: 500px;
+    }
+    .presentacion__imagen{
+        height: 20em;
+    }
+    .proyectos{
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .proyectos__item{
+        width: 30%;
+    }
+ 
 }
