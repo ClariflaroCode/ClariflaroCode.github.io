@@ -10,7 +10,17 @@
 <body id="body">
     <header id="encabezado-principal">
       <nav id="encabezado-principal__barra-navegacion" >
-
+        <div id="switches-container">
+          <button id="menu-desplegable" class="button">Menu</button>
+          <div id="switches">
+            <label for="switch-dark-light-mode"><img id="switch-img" alt="" src="img/luna.png"></label>
+            <input type="checkbox" id="switch-dark-light-mode" name="dark-light-mode" class="encabezado-principal__switch" value="oscuro">
+            <select id="encabezado-principal__idioma-select">
+              <option>ES</option>
+              <option>EN</option>
+            </select>   
+          </div>
+        </div>
         <ul id="encabezado-principal__nav-lista-menu">
           <li  class="encabezado-principal__nav-lista-menu-item">
             <a href="#">INICIO</a>
@@ -35,19 +45,6 @@
             <a href="#contacto">CONTACTO</a>
           </li>
         </ul>  
-
-        <div id="switches">
-          <label for="switch-dark-light-mode"><img id="switch-img" alt="" src="img/luna.png"></label>
-          <input type="checkbox" id="switch-dark-light-mode" name="dark-light-mode" class="encabezado-principal__switch" value="oscuro">
-          
-          <select id="encabezado-principal__idioma-select">
-            <option>ES</option>
-            <option>EN</option>
-          </select>
-          
-          
-
-        </div>
       </nav>
     </header>
     <main>
@@ -476,5 +473,6 @@
     </footer>
     <script type="text/Javascript" src="js/main.js"></script>
     <script type="text/Javascript" src="js/switch_language.js"></script>
+    <script type="text/Javascript" src="js/menu-desplegable.js"></script>
 </body>
 </html>

@@ -20,15 +20,27 @@ h1,h2,h3,h4 {
 .encabezado-principal__switch {
     opacity: 0; /*esto hace que siga en el flujo pero no se vea*/
 }
+#menu-desplegable {
+    display: flex;
+    height: 2em;
+    align-items: center;
+    justify-content: center;
+    
+}
+#switches-container {
+    display: flex;
+}
 #switch-img {
     height: 2em;
 }
+
 #switches{
-    width: 10em;
     display: flex;
     margin: 0;
     box-sizing: border-box;
-    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
 }
 #encabezado-principal__idioma-select {
     border: 1px solid white;
@@ -39,22 +51,35 @@ h1,h2,h3,h4 {
 }
 /*header*/
 #encabezado-principal {
-    padding: 2em;
-    padding-bottom: 1em;
     position: fixed;
+    top: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    z-index: 1; 
+}
+
+
+#encabezado-principal__nav-lista-menu{
+    display: none;
+}
+#encabezado-principal__nav-lista-menu.show {
+    margin-top: 2em ;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3em;
+    padding: 0% 2em;   
     width: 100%;
     box-sizing: border-box;
+    
 }
-#encabezado-principal__barra-navegacion{
-    display: flex;
-    justify-content: space-between;
+.show .encabezado-principal__nav-lista-menu-item {
+    background-color: white;
+    padding: 1%;
+    border: 1px solid white;
+    border-radius: 5px;
 }
-#encabezado-principal__nav-lista-menu{
-    display: flex;
-    justify-content: space-around;
-    gap: 4em;
-}
-.encabezado-principal__nav-lista-menu-item:hover {
+.show .encabezado-principal__nav-lista-menu-item a:hover{
     text-decoration: underline;
 }
 
@@ -290,11 +315,21 @@ h1,h2,h3,h4 {
 }
 
 @media (width >= 768px) {
+    #encabezado-principal {
+        padding: 2em;
+        padding-bottom: 1em;
+    }
     .presentacion {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 500px;
+    }
+
+    #encabezado-principal__nav-lista-menu {
+        display: flex;
+        justify-content: space-around;
+        gap: 4em;
     }
     .card {
         padding: 2%;
@@ -339,5 +374,33 @@ h1,h2,h3,h4 {
     .proyectos__item{
         width: 30%;
     }
- 
+    .contacto__contenedor-gif-form-gif {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        gap: 2em
+    }
+    .contacto__pusheen{
+        height: 100px;
+    }
+    #contacto__pusheen-hi {
+        height: 180px;
+    }
+    #menu-desplegable {
+        display: none;
+    }
+    #encabezado-principal__nav-lista-menu {
+        display: flex;
+        flex-direction: row;
+        margin: 0 ;
+    }
+
+    #encabezado-principal__barra-navegacion {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    #switches{
+        padding: 0%;
+    }
 }
