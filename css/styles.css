@@ -29,6 +29,7 @@ h1,h2,h3,h4 {
 }
 #switches-container {
     display: flex;
+    justify-content: space-between;
 }
 #switch-img {
     height: 2em;
@@ -41,6 +42,15 @@ h1,h2,h3,h4 {
     align-items: center;
     justify-content: center;
     padding: 1em;
+}
+.button-project {
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: rgb(15, 88, 66);
+    margin: 5%;
+    display: block;
 }
 #encabezado-principal__idioma-select {
     border: 1px solid white;
@@ -130,9 +140,11 @@ h1,h2,h3,h4 {
     gap: 2em;
 }
 .proyectos__item{
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 1em 2em;
+    padding: 2em;
     width: 100%;
     text-align: center;
     border-radius: 2%;
@@ -140,8 +152,9 @@ h1,h2,h3,h4 {
 .proyectos__item-lista{
     box-sizing: border-box;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 2em;
+    gap: 1em;
     margin: 1em;
     box-sizing: border-box;
 }
@@ -402,5 +415,10 @@ h1,h2,h3,h4 {
     }
     #switches{
         padding: 0%;
+    }
+    .button-project {
+        margin: 1%;
+        width: 50%;
+        align-self: center;
     }
 }
