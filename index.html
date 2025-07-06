@@ -8,61 +8,60 @@
   <link rel="icon" href="img/gif/pusheen-hi3.png">
 </head>
 <body id="body">
-    <header id="encabezado-principal" class="encabezado-principal">
-      <nav id="encabezado-principal__barra-navegacion" class="encabezado-principal__barra-navegacion">
-        <!--        
-        <div class="encabezado-principal__menu">
-          <ul class="encabezado-principal__menu-lista">
-            <li class="encabezado-principal__menu-item">MENU</li>
-          </ul>
-        </div>-->
-        <div class="encabezado-principal__nav-menu-items">
-          <ul class="encabezado-principal__nav-lista-menu">
-            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a"href="#">INICIO</a></li>
-            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#sobre-mi">SOBRE MÍ</a></li>
-            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#proyectos__titulo">PROYECTOS</a></li>
-            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#experiencia__titulo">EXPERIENCIA</a></li>
-            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#estudios__titulo">ESTUDIOS</a></li>
-            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#habilidades">HABILIDADES</a></li>
-            <li  class="encabezado-principal__nav-lista-menu-item"><a class="encabezado-principal__nav-lista-menu-item-a" href="#contacto">CONTACTO</a></li>
-          </ul>  
+    <header id="encabezado-principal">
+      <nav id="encabezado-principal__barra-navegacion" >
+
+        <ul id="encabezado-principal__nav-lista-menu">
+          <li  class="encabezado-principal__nav-lista-menu-item">
+            <a href="#">INICIO</a>
+          </li>
+          <li  class="encabezado-principal__nav-lista-menu-item">
+            <a href="#sobre-mi">SOBRE MÍ</a>
+          </li>
+          <li  class="encabezado-principal__nav-lista-menu-item">
+            <a href="#proyectos__titulo">PROYECTOS</a>
+          </li>
+          <li  class="encabezado-principal__nav-lista-menu-item">
+            <a href="#experiencia__titulo">EXPERIENCIA</a>
+          </li>
+          <li  class="encabezado-principal__nav-lista-menu-item">
+            <a href="#estudios__titulo">ESTUDIOS</a>
+          </li>
+
+          <li  class="encabezado-principal__nav-lista-menu-item">
+            <a href="#habilidades">HABILIDADES</a>
+          </li>
+          <li  class="encabezado-principal__nav-lista-menu-item">
+            <a href="#contacto">CONTACTO</a>
+          </li>
+        </ul>  
+
+        <div id="switches">
+          <select id="encabezado-principal__idioma-select">
+            <option>ES</option>
+            <option>EN</option>
+          </select>
           
-        </div>
-        <div class="encabezado-principal__opciones">
-          <ul class="encabezado-principal__opciones-lista">
-            <li class="encabezado-principal__opciones-item">
-              <select class="encabezado-principal__idioma-select">
-                <option>ES</option>
-                <option>EN</option>
-              </select>
-            </li>
-            <li class="encabezado-principal__opciones-item">
-              <input type="checkbox" id="switch-dark-light-mode" name="dark-light-mode" class="encabezado-principal__switch" value="oscuro">
-            </li>
-          </ul>
+          <label for="switch-dark-light-mode"><img id="switch-img" alt="" src="img/luna.png"></label>
+          <input type="checkbox" id="switch-dark-light-mode" name="dark-light-mode" class="encabezado-principal__switch" value="oscuro">
+
         </div>
       </nav>
     </header>
     <main>
-      <section id="presentacion" class="presentacion">
+      <section id="presentacion" class="presentacion portfolio-section">
         <div class="presentacion__contenido">
-          <h1 class="presentacion__titulo">Julieta Watts</h1>
-          <div class="presentacion__contenedor-boton-h2">
-            <h2 class="presentacion__subtitulo">Técnica Universitaria en Análisis de Sistemas y Técnica Universitaria en Desarrollo de Aplicaciones Informáticas (?</h2>
-            <a href="#contacto" class="presentacion__boton">Contacta conmigo</a>
-          </div>
+          <h1 class="presentacion__titulo">Hola! Soy Julieta Abraham</h1>
+          <h2 class="presentacion__subtitulo">Técnica Universitaria en Análisis de Sistemas y Técnica Universitaria en Desarrollo de Aplicaciones Informáticas</h2>
+          <a href="#contacto" class="button">Contacta conmigo</a>
         </div>
-        <div class="presentacion__imagen-contenedor">
-          <img src="img/perfil.jpeg" alt="foto-perfil" class="presentacion__imagen">
-        </div>
+        <img src="img/perfil.jpeg" alt="foto-perfil" class="presentacion__imagen">
       </section>
-
-
 
       <div class="fuck-you-uml-no-cambiare-todas-las-clases">
 
 
-        <section id="sobre-mi" class="sobre-mi">
+        <section class="card">
           <h2 class="sobre-mi__titulo">Sobre mí</h2>
           <p class="sobre-mi__descripcion">
             Apasionada por el aprendizaje y la creatividad, siempre estoy explorando nuevas formas de expresión. Desde la programación y el desarrollo de videojuegos hasta la ilustración digital, la escritura, la música y la cultura japonesa, creo que cada disciplina es una puerta hacia nuevos mundos. 🎨🎮📚
@@ -75,7 +74,7 @@
 
         <h2 id="proyectos__titulo"  class="proyectos__titulo">Proyectos</h2>
       
-        <section id="proyectos" class="proyectos">
+        <section id="proyectos" class="proyectos portfolio-section">
           <article class="proyectos__item">
             <h3 class="proyectos__item-titulo">Diario Digital</h3>
             <p class="proyectos__item-descripcion">Diario digital con secciones creado para la cátedra de Web 1 en la Tecnicatura de Desarrollo de Aplicaciones Informáticas</p>
@@ -83,6 +82,17 @@
               <li class="proyectos__item-tecnologia">HTML</li>
               <li class="proyectos__item-tecnologia">CSS</li>
             </ul>
+            <a href="https://github.com/ClariflaroCode/Diario-Digital" target="_blank"  >Ver proyecto</a>
+          </article>
+          <article class="proyectos__item">
+            <h3 class="proyectos__item-titulo">Study with Gohan</h3>
+            <p class="proyectos__item-descripcion">Este proyecto es un proyecto web para productividad. La aplicación impulsa el método pomodoro y gestiona las tareas del usuario por hacer, haciendo y terminadas en cada bloque. Ofrece un entorno friki para los amigos.</p>
+            <ul class="proyectos__item-lista">
+              <li class="proyectos__item-tecnologia">HTML</li>
+              <li class="proyectos__item-tecnologia">CSS</li>
+              <li class="proyectos__item-tecnologia">Javascript</li>
+            </ul>
+            <a href="https://github.com/ClariflaroCode/StudyWithGohan" target="_blank"  >Ver proyecto</a>
           </article>
           <article class="proyectos__item">
             <h3 class="proyectos__item-titulo">Chatbot de Videojuegos en Telegram</h3>
@@ -101,72 +111,26 @@
             </ul>
           </article>
           <article class="proyectos__item">
-            <h3 class="proyectos__item-titulo">Calculadora de Álgebra Lineal</h3>
-            <p class="proyectos__item-descripcion"> Calculadora especializada en el cálculo optimizado de vectores y matrices  </p>
+            <h3 class="proyectos__item-titulo">ExaWiki</h3>
+            <p class="proyectos__item-descripcion">Sitio web creado en colaboración con una compañera de la carrera de la tecnicatura en desarrollo de aplicaciones informáticas con el objetivo de brindar una herramienta virtual complementaria para el aprendizaje de cursos.</p>
             <ul class="proyectos__item-lista">
               <li class="proyectos__item-tecnologia">HTML</li>
               <li class="proyectos__item-tecnologia">CSS</li>
               <li class="proyectos__item-tecnologia">JavaScript</li>
             </ul>
           </article>
-
-          <!--
-          <article class="proyectos__item">
-            <h3 class="proyectos__item-titulo">Blancanieves y concurrencia de enanitos</h3>
-            <p class="proyectos__item-descripcion"> Este script en Java trabaja concurrencia de hilos. Tenemos un objeto casa con el que interactúan los objetos Blancanieves y Enanitos, el problema se encuentra en que la casa tiene un cupo limitado de asientos libres que pueden usar los enanitos para sentarse a comer y Blancanieves administrará permisos.</p>
-            <ul class="proyectos__item-lista">
-              <li class="proyectos__item-tecnologia">JAVA</li>
-            </ul>
-          </article>
-          <article class="proyectos__item">
-            <h3 class="proyectos__item-titulo">Tipos de Dato Abstractos y creación de estructuras en C++</h3>
-            <p class="proyectos__item-descripcion"> Filas, Pilas, Listas Simples implementadas con Secuencias de Nodos.
-              Arbol binario y Arbol binario de búsqueda implementado con Arbin. 
-            </p>
-            <ul class="proyectos__item-lista">
-              <li class="proyectos__item-tecnologia">c++</li>
-            </ul>
-          </article>
-          <article class="proyectos__item">
-            <h3 class="proyectos__item-titulo">Algoritmos de ordenamiento aplicando la técnica de Divide y Venceras con C++</h3>
-            <p class="proyectos__item-descripcion"> Quicksort y Mergesort</p>
-            <ul class="proyectos__item-lista">
-              <li class="proyectos__item-tecnologia">c++</li>
-            </ul>
-          </article>
-          <article class="proyectos__item">
-            <h3 class="proyectos__item-titulo">Bash Scripting Ejercicios</h3>
-            <p class="proyectos__item-descripcion"> Quicksort y Mergesort</p>
-            <ul class="proyectos__item-lista">
-              <li class="proyectos__item-tecnologia">BASH</li>
-              <li class="proyectos__item-tecnologia">LINUX</li>
-
-            </ul>
-          </article>
-          -->
         </section>
-
-
-
-
-
 
         <h2 id="experiencia__titulo" class="experiencia__titulo">Experiencia Docente</h2>
 
-
-
-        <section id="experiencia_laboral" class="experiencia">
+        <section id="experiencia_laboral" class="experiencia portfolio-section">
           <div class="experiencia__auxiliar">
-            <article class="experiencia__materia">
+            <article class="experiencia__materia card">
               <header class="experiencia__header">
-                <div class="experiencia__institucion">
                   <!--<img src="" alt="logo-universidad" class="experiencia__institucion-logo">-->
                   <h3 class="experiencia__institucion-nombre">Universidad Nacional del Centro de la Provincia de Buenos Aires</h3>
-                </div>
-                <div class="experiencia__cargo">
                   <h3 class="experiencia__cargo-titulo">Ayudante de Cátedra</h3>
                   <h4 class="experiencia__materia-nombre">Introducción a los Sistemas Informáticos</h4>
-                  <div class="experiencia__cargo-info">
                     <span class="experiencia__cargo-jornada">🕒Jornada parcial</span>
                     <span class="experiencia__cargo-fecha">
                       📅 <time datetime="2024-04-01">Abril 2024</time> <label>– </label>
@@ -174,8 +138,6 @@
                       📅 <time datetime="2024-04-01">Abril 2025</time> <label>– </label>
                       <label>Actualidad</label>
                     </span>
-                  </div>
-                </div>
               </header>
               <p class="experiencia__descripcion">
                 Me desempeño como ayudante de cátedra en la materia Introducción a los Sistemas Informáticos enseñando a los alumnos de primer año temas como: sistemas de representación de números, introducción a sistemas operativos, seguridad informática básica, MIPS y arquitecturas de computadoras.
@@ -203,23 +165,17 @@
               </details>
             </article>
         
-            <article class="experiencia__materia">
+            <article class="card">
               <header class="experiencia__header">
-                <div class="experiencia__institucion">
                   <!--<img src="" alt="logo-universidad" class="experiencia__institucion-logo">-->
                   <h3 class="experiencia__institucion-nombre">Universidad Nacional del Centro de la Provincia de Buenos Aires</h3>
-                </div>
-                <div class="experiencia__cargo">
                   <h3 class="experiencia__cargo-titulo">Ayudante de Cátedra</h3>
                   <h4 class="experiencia__materia-nombre">Introducción a la Programación 1</h4>
-                  <div class="experiencia__cargo-info">
                     <span class="experiencia__cargo-jornada">🕒Jornada parcial</span>
                     <span class="experiencia__cargo-fecha">
                       📅 <time datetime="2024-04-01">Octubre 2022</time> <label>– </label>
                       <time datetime="2024-09-30">Abril 2024</time>
                     </span>
-                  </div>
-                </div>
               </header>
               <p class="experiencia__descripcion">
                 Me desempeñé como ayudante de cátedra en la materia Introducción a la Programación 1 enseñando a los alumnos de primer año temas como: fundamentos de la programación, paradigma imperativo, programación estructurada, tipos de datos estructurados, ordenamientos y corrimientos de estructuras, resolución de problemas. El curso culminaba con el desarrollo de un proyecto o ejercicio integrador donde aplicaban todos los conceptos aprendidos. En algunas ediciones, desarrollaron proyectos como un mini juego de Damas.
@@ -227,50 +183,50 @@
               <details class="experiencia__detalles">
                 <summary class="experiencia__detalles-titulo">Contenidos enseñados</summary>
                 <ul class="experiencia__detalles-lista">
-                  <li class="experiencia__detalles-item">🔢 Fundamentos de la programación</li>
-                  <li class="experiencia__detalles-item">📦 Concepto de variables, tipos de dato primitivos y abstractos</li>
-                  <li class="experiencia__detalles-item">🖥️ Paradigma imperativo y programación estructurada</li>
-                  <li class="experiencia__detalles-item">📜 Concepto de algoritmos, procedimientos y funciones</li>
-                  <li class="experiencia__detalles-item">📤 Pasaje de parámetros por referencia, por copia valor y por copia resultado</li>
-                  <li class="experiencia__detalles-item">🛠️ Resolución de problemas</li>
-                  <li class="experiencia__detalles-item">🎯 Desarrollo de proyecto final</li>
-                  <li class="experiencia__detalles-item">🧩 Manejo de estructuras de datos (pilas, filas, arreglos, matrices)</li>
-                  <li class="experiencia__detalles-item">🔄 Ordenamientos y corrimientos de arreglos</li>
-                  <li class="experiencia__detalles-item">🧠 Introducción a la técnica de diseño "Divide y Conquista"</li>
-                  <li class="experiencia__detalles-item">📝 Desarrollo de diagramas de estructura (UML)</li>
-                  <li class="experiencia__detalles-item">🧩 Modularización de programas</li>
+                  <li>🔢 Fundamentos de la programación</li>
+                  <li>📦 Concepto de variables, tipos de dato primitivos y abstractos</li>
+                  <li>🖥️ Paradigma imperativo y programación estructurada</li>
+                  <li>📜 Concepto de algoritmos, procedimientos y funciones</li>
+                  <li>📤 Pasaje de parámetros por referencia, por copia valor y por copia resultado</li>
+                  <li>🛠️ Resolución de problemas</li>
+                  <li>🎯 Desarrollo de proyecto final</li>
+                  <li>🧩 Manejo de estructuras de datos (pilas, filas, arreglos, matrices)</li>
+                  <li>🔄 Ordenamientos y corrimientos de arreglos</li>
+                  <li>🧠 Introducción a la técnica de diseño "Divide y Conquista"</li>
+                  <li>📝 Desarrollo de diagramas de estructura (UML)</li>
+                  <li>🧩 Modularización de programas</li>
                 </ul>
               </details>
               <details class="experiencia__detalles">
                 <summary class="experiencia__detalles-titulo">Habilidades adquiridas</summary>
                 <ul class="experiencia__detalles-lista">
-                  <li class="experiencia__detalles-item">🤝 Trabajo en equipo</li>
-                  <li class="experiencia__detalles-item">🗣️ Comunicación efectiva</li>
-                  <li class="experiencia__detalles-item">🎓 Enseñanza superior</li>
-                  <li class="experiencia__detalles-item">🧠 Programación estructurada</li>
-                  <li class="experiencia__detalles-item">🦾 Análisis y resolución de problemas</li>
-                  <li class="experiencia__detalles-item">🔍 Detección y corrección de errores</li>
-                  <li class="experiencia__detalles-item">🛠️ Manejo de estructuras de datos básicas</li>
-                  <li class="experiencia__detalles-item">📋 Documentación y diagramación</li>
-                  <li class="experiencia__detalles-item">🧩 Planificación y organización</li>
+                  <li>🤝 Trabajo en equipo</li>
+                  <li>🗣️ Comunicación efectiva</li>
+                  <li>🎓 Enseñanza superior</li>
+                  <li>🧠 Programación estructurada</li>
+                  <li>🦾 Análisis y resolución de problemas</li>
+                  <li>🔍 Detección y corrección de errores</li>
+                  <li>🛠️ Manejo de estructuras de datos básicas</li>
+                  <li>📋 Documentación y diagramación</li>
+                  <li>🧩 Planificación y organización</li>
                 </ul>
               </details>
             </article>
           </div>        
         </section>
 
-        <h2 id="estudios__titulo" class="estudios__titulo">Formación académica</h2>
+        <h2 id="estudios__titulo" class="estudios__titulo ">Formación académica</h2>
       
-        <section id="estudios" class="estudios">
+        <section id="estudios" class="estudios portfolio-section">
           <div class="estudios__contenedor-principal">
             <section class="estudios__universitarios">
-              <article class="estudios__item">
+              <article class="card">
                 <h3 class="estudios__item-titulo">Ingeniería de Sistemas</h3>
                 <p class="estudios__item-descripcion">Universidad Nacional del Centro de la Provincia de Buenos Aires</p>
                 📅 <time datetime="2021">2021</time> <label>- Actualidad</label>
               </article>
           
-              <article class="estudios__item">
+              <article class="card">
                 <h3 class="estudios__item-titulo">Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas</h3>
                 <p class="estudios__item-descripcion">Universidad Nacional del Centro de la Provincia de Buenos Aires</p>
                 📅 <time datetime="2025">2025</time> <label>- Actualidad</label>
@@ -280,13 +236,13 @@
             <section class="estudios__cursos">
               <h3 class="estudios__cursos-titulo">Cursos y certificados</h3>
               <div class="estudios__contenedor">
-                <article class="estudios__cursos-item">
+                <article class="card">
                   <h4 class="estudios__cursos-nombre">Introducción a la programación para videojuegos</h4>
                   <p class="estudios__cursos-institucion">Image Campus</p>
                   📅 <time datetime="2020-08">Agosto 2020</time> <label>-</label> <time datetime="2020-12">Diciembre 2020</time>
                 </article>
           
-                <article class="estudios__cursos-item">
+                <article class="card">
                   <h4 class="estudios__cursos-nombre">Introducción al Desarrollo de videojuegos con Blender, Unity y Makehuman</h4>
                   <p class="estudios__cursos-institucion">Universidad Nacional Tecnológica de Buenos Aires</p>
                   📅 <time datetime="2018-08-07">Agosto 2018</time> <label>-</label> <time datetime="2018-10-07">Octubre 2018</time>
@@ -294,7 +250,7 @@
               </div>           
             </section>
           </div>          
-          <section class="estudios__idiomas">
+          <section id="section-idiomas" class="card">
             <h3 class="estudios__idiomas-titulo">Idiomas</h3>
       
             <article class="estudios__idiomas-item">
@@ -420,20 +376,9 @@
               </section>
             </div>
             
-              <div class="habilidades__tecnicas-experiencia-adicional">
-                <h4 class="habilidades__tecnicas-subtitulo">Experiencia Adicional</h4>
-                <p class="habilidades__tecnicas-parrafo">
-                  Lectura y depuración de código en diversos lenguajes: Dart, Perl, TypeScript, JavaScript, Python, Java, C, entre otros (por cursada de Lenguajes y Paradigmas).
-                </p>
-          
-                <h4 class="habilidades__tecnicas-subtitulo">Modelado de sistemas</h4>
-                <p class="habilidades__tecnicas-parrafo">
-                  UML (diagramas de clases, casos de uso, actividades)
-                </p>  
-              </div>
           </div>
           <div class="habilidades__layout-aplicaciones-practicas-habilidades-blandas">
-            <div class="habilidades__metodologias-herramientas-explicacion-practica">
+            <div class="card">
               <h4 class="habilidades__metodologias-herramientas-subtitulo">Aplicaciones prácticas</h4>
               <ul class="habilidades__metodologias-herramientas-explicacion-practica-lista">
                 <li class="habilidades__metodologias-herramientas-explicacion-practica-item">
@@ -451,10 +396,11 @@
                 <li class="habilidades__metodologias-herramientas-explicacion-practica-item">
                   Virtualización de entornos de desarrollo con <strong>VirtualBox</strong>.
                 </li>
+                <li><h4>Modelado de Sistemas</h4><strong>UML</strong> (diagramas de clases, casos de uso, actividades)</li>
               </ul>
             </div>
                     
-            <section class="habilidades__blandas">
+            <section class="habilidades__blandas card">
               <h3 class="habilidades__blandas-titulo">Habilidades blandas</h3>
               <ul class="habilidades__blandas-lista">
                 <li class="habilidades__blandas-item">Trabajo en equipo</li>
@@ -475,11 +421,11 @@
 
         <h2 class="contacto__encabezado">Contacta conmigo</h2>
 
-        <section id="contacto">
+        <section id="contacto" class="portfolio-section">
           <div class="contacto__contenedor-gif-form-gif">
             <img src="img/gif/pusheen-pc.gif" alt="pusheen-pc" class="contacto__pusheen">
             
-            <form class="contacto__formulario">
+            <form class="card contacto__formulario">
 
               <label for="username" class="contacto__label">Escribe tu nombre</label>
               <input type="text" id="username" class="contacto__input" name="username" required>
@@ -488,7 +434,7 @@
               <label for="mensaje" class="contacto__label">Describe tu proyecto</label>
               <textarea name="mensaje" rows="5" cols="30" class="contacto__textarea"> </textarea>
               <div class="contacto__contenedor-enviar">
-                <button type="submit" class="contacto__enviar">Enviar</button>
+                <button type="submit" id="contacto__enviar" class="button">Enviar</button>
               </div>
               
   
@@ -527,5 +473,6 @@
       </ul>
     </footer>
     <script type="text/Javascript" src="js/main.js"></script>
+    <script type="text/Javascript" src="js/switch_language.js"></script>
 </body>
 </html>

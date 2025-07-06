@@ -1,106 +1,94 @@
-main{
-    margin: 5%;
+* {
+    margin: 0;
+    padding: 0;
 }
-
-
-
-
-/*#7C44BC   #64B4C4
-#B48CF2   #3F278A
-#5C50B1   #3539A4
-#5F84DB   #5A63CB
-#3F56AE   #1C1D6F
-#96CCF9   #9294E4
-#060941   #C8DEF8
-*/
-/*
-    .sobre-mi__titulo,
-    .proyectos__titulo,
-    .experiencia__titulo,
-    .estudios__titulo,
-    .habilidades__titulo,
-    .contacto__encabezado{
-        text-align: center;
-    }
-*/
-.fuck-you-uml-no-cambiare-todas-las-clases{
-    text-align: center;
+main{
+    margin: 0% 5%;
+    padding-top: 20vh;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 li {
     list-style: none;
 }
-.encabezado-principal {
-    /*
-    background-color: aliceblue;
-    */
-    height: 10vh;
-    margin-top: 0;
+h1,h2,h3,h4 {
+    margin: 1em 0;
 }
-.encabezado-principal__barra-navegacion{
+.encabezado-principal__switch {
+    opacity: 0; /*esto hace que siga en el flujo pero no se vea*/
+}
+#switch-img {
+    height: 2em;
+}
+#switches{
+    width: 10em;
     display: flex;
-    flex-direction: row;
+    margin: 0;
+    box-sizing: border-box;
+    gap: 1em;
+}
+.fuck-you-uml-no-cambiare-todas-las-clases{
+    text-align: center;
+}
+/*header*/
+#encabezado-principal {
+    padding: 2em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+#encabezado-principal__barra-navegacion{
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 0% 2%;
 }
-.encabezado-principal__opciones-lista{
+#encabezado-principal__nav-lista-menu{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    list-style: none;
+    gap: 4em;
 }
-.encabezado-principal__nav-lista-menu-item a{
-    text-decoration: none;
+.encabezado-principal__nav-lista-menu-item:hover {
+    text-decoration: underline;
 }
-.encabezado-principal__nav-lista-menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 40px;
-}
+
 
 
 /*              PRESENTACION                */
 .presentacion {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 500px ;
-}
-.presentacion__contenedor-boton-h2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.presentacion__imagen-contenedor{
-    height: 100%; /*POR QUé SI YO QUITO ESTA LINEA CAMBIA EL TAMAÑO?*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+    height: 500px;
 }
 .presentacion__imagen{
     border-radius: 100%;
-    height: 70%;
+    height: 20em;
     box-shadow: 0 0 20px 5px rgb(211, 235, 227);
 }
-
-.presentacion__boton{
+.presentacion__titulo {
+    font-size: 4em;
+    margin: 1% 0;
+    color: rgb(28, 54, 126)
+}
+.presentacion__subtitulo {
+    font-weight: 100;
+}
+.presentacion__contenido {
+    width: 50em;
+}
+.button{
+    border: none;
     color: white;
     font-weight: bolder;
-    text-decoration: none;
-    text-align: center;
     border-radius: 10px;
     padding: 2%;
     width: 20%;
     background-color: rgb(15, 88, 66);
-    border-style: outset;
-    border-width: 2px;
-    border-color: #111111;
+    margin: 1em;
 }
+
 
 
 /*          PROYECTOS                   */
@@ -108,6 +96,7 @@ li {
 .proyectos{
     display: flex;
     flex-wrap: wrap;
+    gap: 2em;
 }
 .proyectos__item{
     box-shadow: 0 0 20px 5px rgb(211, 235, 227);
@@ -115,26 +104,24 @@ li {
     text-align: center;
     width: 20%;
     border-radius: 2%;
-    margin: 1%;
 }
 .proyectos__item-lista{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    gap: 2em;
+    margin: 1em;
 }
-.proyectos__item-tecnologia{
-    margin: 20px;
-}
+
 
 /*                  SOBRE MI                            */
 
-.sobre-mi{
+.card{
     box-shadow: 0 0 20px 5px rgb(211, 235, 227);
     padding: 5%;
     text-align: center;
     width: 100%;
     border-radius: 2%;
-    margin-top: 5%;
+    margin-top: 2%;
     box-sizing: border-box;
 }
 
@@ -145,142 +132,61 @@ li {
 
 .experiencia__auxiliar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2em;
+
 }
-.experiencia__materia{
-    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
-    text-align: center;
-    width: 40%;
-    border-radius: 2%;   
-    margin: 2%; 
-}
+
 
 
 /*              ESTUDIOS                            */
 .estudios {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
 .estudios__contenedor{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    gap: 2em;
 }
-
-.estudios__cursos-item{
-    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
-    text-align: center;
-    width: 40%;
-    border-radius: 2%;   
-    margin: 2%;     
+#section-idiomas {
+    width: 20em;
+    margin: 0;
 }
-.estudios__universitarios {
-    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
-    text-align: center;
-    width: 96%;
-    border-radius: 2%;   
-    margin: 2%;
-    box-sizing: border-box;
-         
-}
-.estudios__idiomas {
-    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
-    text-align: center;
-    width: 20%;
-    border-radius: 2%;   
-    margin: 2%;      
-}
-
-
 
 
 /*              SECCION HABILIDADES:                */
 
 
-.habilidades__tecnicas-figura{
+.habilidades__tecnicas-figura, .habilidades__metodologias-herramientas-figura{
     height: 50px;
 }
-.habilidades__tecnicas-img{
+.habilidades__tecnicas-img, .habilidades__metodologias-herramientas-img{
     height: 100%;
 }
-.habilidades__tecnicas-lista{
+.habilidades__tecnicas-lista, .habilidades__metodologias-herramientas-lista {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-}
-
-
-.habilidades__metodologias-herramientas-lista {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;    
-}
-.habilidades__metodologias-herramientas-figura{
-    height: 50px;
-}
-.habilidades__metodologias-herramientas-img{
-    height: 100%;
-}
-.habilidades__layout-logos-experiencia-adicional{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    gap: 4em;
+    margin: 2em;
 }
 .habilidades__layout-aplicaciones-practicas-habilidades-blandas{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-}
-.habilidades__loguitos{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 50px;
-}
-.habilidades__tecnicas-experiencia-adicional {
-    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
-    text-align: center;
-    width: 20%;
-    border-radius: 2%;   
-    margin: 2%;       
+    gap: 2em;
 }
 .habilidades__blandas{
-    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
-    text-align: center;
     width: 50%;
-    border-radius: 2%;   
-    margin: 2%;     
 }
-
-.habilidades__metodologias-herramientas-explicacion-practica{
-    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    padding: 5%;
-    text-align: center;
-    width: 50%;
-    border-radius: 2%;   
-    margin: 2%;  
-}
-
-
 
 /*              SECCION CONTACT ME                  */
 
 .contacto__contenedor-gif-form-gif {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: end;
-    gap: 50px;
+    gap: 2em
 }
 .contacto__pusheen{
     height: 100px;
@@ -289,71 +195,35 @@ li {
     height: 180px;
 }
 .contacto__formulario{
-    width: 100%;
-    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 5%;
-    box-shadow: 0 0 20px 5px rgb(211, 235, 227);
-    border-radius: 2%;   
-
-    
+    flex-direction: column;   
 }
 .contacto__input{
-    margin: 1% 0;
+    margin: 1em 0;
 }
-.contacto__enviar{
-    margin: 2% 0;
-    width:20%;
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 10px;
-    padding: 2%;
-    width: 20%;
-    background-color: rgb(15, 88, 66);
-}
+
 .contacto__textarea{
-    width: 100%;
-    height: 100%;
-    max-width: 1000px;
-    max-height: 200px;
-    resize: vertical;
+    resize: none;
     overflow-y: scroll;
 }
 
-
 /*              footer                              */
-.footer {
-    height: 100px;
-    background-color: aliceblue;
-}
-.footer__a
-{
-    text-decoration: none;
-}
+
+
 .footer__list {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    gap: 2em;
+    box-sizing: border-box;
 }
-.footer__figure{
-    width: 50px;
-    height: 50px;
+.footer {
+    height: 10vh;
+    padding: 1em;
+    margin-top: 2em;
 }
 .footer__img{
-    height: 70%;
+    height: 2em;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -365,25 +235,43 @@ li {
     background-color: #111122;
     color: white;
 }
-.nav_oscuro {
+.fondo_oscuro #encabezado-principal,.fondo_oscuro .footer{
     background-color: #1a1a3f;
-    color: white;
 }
-.nav_claro {
-    background-color: aliceblue;
-    color: black;
+.fondo_claro #encabezado-principal,.fondo_claro .footer {
+    background-color: rgb(198, 231, 236);
 }
-.header_claro {
-    background-color: aliceblue;
-    color: black;
+.fondo_claro .card, .fondo_claro .proyectos__item {
+    background-color: white
 }
-.header_oscuro {
-    background-color: #1a1a3f;
-    color: white;
+ .fondo_oscuro .card, .fondo_oscuro .proyectos__item, .fondo_oscuro .presentacion__imagen {
+    background-color: #141438;
+    box-shadow: 0 0 10px 5px rgb(119, 145, 218) ;
+ }
+.fondo_oscuro .button {
+    background-color: #5858a7;
 }
-.nav_items_oscuro {
-    color: white;
+.fondo_oscuro .button:hover {
+    box-shadow: 0 0 10px 4px rgb(179, 190, 223);
 }
-.nav_items_claro {
-    color: black;
+.fondo_claro .button:hover {
+    box-shadow: 0 0 10px 4px rgb(179, 223, 201);
+}
+.fondo_claro .button:active {
+    background-color: green;
+}
+.fondo_oscuro .button:active {
+    background-color: rgb(55, 0, 128);
+}
+.fondo_claro .encabezado-principal__nav-lista-menu-item:hover {
+    color: green;
+}
+.fondo_claro .encabezado-principal__nav-lista-menu-item:active {
+    color: rgb(2, 34, 16);
+}
+.fondo_oscuro .encabezado-principal__nav-lista-menu-item:hover {
+    color: lightblue;
+}
+.fondo_oscuro .encabezado-principal__nav-lista-menu-item:active {
+    color: rgb(73, 73, 180);
 }
