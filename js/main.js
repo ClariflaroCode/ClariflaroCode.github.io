@@ -5,16 +5,31 @@ function iniciarSwitchTheme() {
     ModoOscuro();
 
     function ModoOscuro(){
+        const linkedins = document.getElementsByClassName("linkedin");
+        const githubs = document.getElementsByClassName("github");
 
         //1. Debo chequear si el checkbox está tildado o no está tildado, si está tildado quiero que esté oscuro. 
         if (switchTheme.checked) {
             document.getElementById("body").classList.add("fondo_oscuro");
             document.getElementById("body").classList.remove("fondo_claro");    
-            document.getElementById("switch-img").src = "img/luna.png";
+            document.getElementById("switch-img").src = "img/luna.webp";
+            for (const elem of githubs){
+                elem.src ="img/github-redondito-color.png";
+            }
+            for (const elem of linkedins){
+                elem.src ="img/linkedin-neon.png";
+            }
+            
         } else {
             document.getElementById("body").classList.add("fondo_claro");
             document.getElementById("body").classList.remove("fondo_oscuro"); 
-            document.getElementById("switch-img").src = "img/solcito.png";
+            document.getElementById("switch-img").src = "img/solcito.webp";
+            for (const elem of githubs){
+                elem.src ="img/github-redondo.png";
+            }
+            for (const elem of linkedins){
+                elem.src ="img/linkedin.png";
+            }
         }
     }
 }

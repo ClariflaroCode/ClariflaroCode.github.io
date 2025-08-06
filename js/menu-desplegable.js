@@ -5,7 +5,9 @@ function startShowMenu(){
     const navList = document.getElementById("encabezado-principal__nav-lista-menu");
     const navListItem = document.getElementsByClassName("encabezado-principal__nav-lista-menu-item");
     for (const item of navListItem) {
-        item.addEventListener("click", showMenu);
+        item.addEventListener ("click", () => {
+            navList.classList.remove("show");
+        }) 
     }
     function showMenu() {
         navList.classList.toggle("show");

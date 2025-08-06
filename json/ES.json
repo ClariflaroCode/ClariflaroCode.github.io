@@ -1,0 +1,138 @@
+{
+    "ES": {
+        "inicio": "Inicio",
+        "sobre-mi": "Sobre mí",
+        "proyectos": "Proyectos",
+        "experiencia": "Experiencia",
+        "estudios": "Estudios",
+        "habilidades": "Habilidades",
+        "contacto":"Contacto",
+
+
+
+        "presentacion": "Hola, soy Julieta Abraham",
+        "presentacion-profesional": "Técnica Universitaria en Análisis de Sistemas y Técnica Universitaria en Desarrollo de Aplicaciones Informáticas",
+        "descargar-cv": "Descargar CV",
+
+
+
+        "descripcion-sobre-mi-p1": "Me llamo Julieta Abraham, desde niña me ha apasionado el arte y la tecnología, especialmente los videojuegos. Mi curiosidad y hambre insaciable de conocimiento me llevó a la edad de 15 años a hacer un curso de desarrollo de videojuegos a distancia en la Universidad Tecnológica Nacional de Buenos Aires (UTN). Desde entonces me enamoré de la tecnología y decidí profundizar, incursionando en cursos de desarrollo web y desarrollo de videojuegos. Al momento de elegir una carrera, opté por Ingeniería de Sistemas, con el objetivo de obtener una formación sólida en ciencias de la computación.",
+        "descripcion-sobre-mi-p2": "En los últimos años, he decidido especializarme en el desarrollo web que encontré es un área que me apasiona completamente y en la cual busco perfeccionar mis habilidades para ofrecer soluciones y experiencias de calidad. Considero que el mundo es una biblioteca infinita para aprender y sé que mi curiosidad constante y mi compromiso con la mejora continua son mi huella en cada proyecto en el que decido involucrarme.",
+
+
+
+
+
+        "descripcion-diario": "Diario digital con secciones creado para la cátedra de Web 1 en la Tecnicatura de Desarrollo de Aplicaciones Informáticas",
+        "ver-proyecto": "Ver proyecto",
+        "descripcion-gohan": "Este proyecto es un proyecto web para productividad. La aplicación impulsa el método pomodoro y gestiona las tareas del usuario por hacer, haciendo y terminadas en cada bloque. Ofrece un entorno friki para los amigos.",
+        "descripcion-exawiki": "Sitio web creado en colaboración  con el objetivo de brindar una herramienta virtual complementaria para el aprendizaje de cursos. Posteriormente lo modifiqué para que fuese una Single Page Application (SPA) y mejorar la experiencia de usuario",
+        
+
+
+
+        "experiencia-docente": "Experiencia Docente",
+        "introduccion-a-los-sistemas-informaticos": "Introducción a los Sistemas Informáticos",
+        "cargo-ayudante": "Ayudante de Cátedra",
+        "jornada-parcial": "Jornada parcial",
+        "abril-2024": "Abril 2024",
+        "septiembre-2024": "Septiembre 2024",
+        "abril-2025": "Abril 2025",
+        "actualidad": "actualidad",
+        "descripcion-introduccion-a-los-sistemas-informaticos": "Me desempeño como ayudante de cátedra en la materia Introducción a los Sistemas Informáticos enseñando a los alumnos de primer año temas como: sistemas de representación de números, introducción a sistemas operativos, seguridad informática básica, MIPS y arquitecturas de computadoras.",
+        "contenidos-enseñados": "Contenidos enseñados",
+        "sistemas-de-representacion-de-datos": "Sistemas de representación de datos",
+        "introduccion-a-lenguajes-y-paradigmas-de-programacion": "Introducción a lenguajes y paradigmas de programación",
+        "arquitectura-de-computadoras-y-mips": "Arquitectura de computadoras y MIPS",
+        "habilidades-adquiridas": "Habilidades adquiridas",
+        "trabajo-en-equipo": "Trabajo en equipo",
+        "comunicacion-efectiva": "Comunicación efectiva",
+        "enseñanza-superior": "Enseñanza superior",
+        "adaptabilidad-y-liderazgo-academico": "Adaptabilidad y liderazgo académico",
+        
+        "introduccion-a-la-programacion-1": "Introducción a la Programación 1",
+        "octubre-2022": "Octubre 2022",
+        "descripcion-introduccion-a-la-programacion-1": "Me desempeñé como ayudante de cátedra en la materia Introducción a la Programación 1 enseñando a los alumnos de primer año temas como: fundamentos de la programación, paradigma imperativo, programación estructurada, tipos de datos estructurados y resolución de problemas. El curso culminaba con el desarrollo de un proyecto o ejercicio integrador donde aplicaban todos los conceptos aprendidos.",
+        "fundamentos-de-la-programacion": "Fundamentos de la programación", 
+        "paradigma-imperativo-y-programacion-estructurada": "Paradigma imperativo y programación estructurada",
+        "concepto-de-algoritmos-procedimientos-y-funciones": "Concepto de algoritmos, procedimientos y funciones",
+        "analisis-y-resolucion-de-problemas": "Análisis y resolución de problemas",
+        "deteccion-y-correccion-de-errores": "Detección y corrección de errores",
+        "pedagogia": "Pedagogía",
+
+
+
+
+
+
+        "formacion-academica": "Formación académica",
+        "ingenieria-de-sistemas": "Ingeniería de Sistemas",
+        "-actualidad": "- Actualidad",
+        "tudai": "Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas",
+        "idiomas": "Idiomas",
+        "ingles": "Inglés",
+        "Certificado B1": "Certificado B1 - Cambridge Preliminary English Test (PET)",
+        "Certificado A2": "Certificado A2 - Cambridge Key English Test (KET)",
+        "español": "Español",
+        "nativo": "Nativo",
+        
+
+
+
+
+
+
+
+        "cursos-y-certificados": "Cursos y certificados",
+        "curso-de-html-y-css": "Curso de HTML y CSS",
+        "mayo-2025": "Mayo 2025",
+        "julio-2025": "Julio 2025",
+        "ver-certificado": "Ver certificado",
+        "introduccion-a-la-programacion-para-videojuegos": "Introducción a la programación para videojuegos",
+        "agosto-2020": "Agosto 2020",
+        "diciembre-2020": "Diciembre 2020",
+        "introduccion-al-desarrollo-de-videojuegos-con-blender-unity-y-makehuman": "Introducción al Desarrollo de videojuegos con Blender, Unity y Makehuman",
+        "agosto-2018": "Agosto 2018",
+        "octubre-2018": "Octubre 2018",
+        "Credencial": "Credencial: CER-WD0439K4-312218",
+
+
+
+
+
+
+
+
+        "habilidades-tecnicas": "Habilidades técnicas",
+        "herramientas-de-gestion-y-virtualizacion": "Herramientas de gestión y virtualización",
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        "contacta-conmigo": "Contacta conmigo",
+        "escribe-tu-nombre": "Escribe tu nombre",
+        "escribe-tu-mail": "Escribe tu dirección de correo electrónico",
+        "describe-tu-proyecto": "Describe tu proyecto",
+        "captcha-a-ingresar": "Captcha a ingresar:",
+        "enviar": "Enviar",
+        "preferencia-linkedin": "¿Preferís hablar por LinkedIn?",
+        "contacto-linkedin":"Contactame por",
+
+
+
+
+
+
+        "conectando": "Conectando...",
+        "cerrar": "Cerrar"
+    }
+}
