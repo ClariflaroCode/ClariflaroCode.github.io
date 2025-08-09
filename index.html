@@ -84,16 +84,6 @@
         <div class="presentacion__contenido">
           <h1 class="presentacion__titulo"data-i18n="presentacion"></h1>
           <h2 class="presentacion__subtitulo"data-i18n="presentacion-profesional"></h2>
-          <!--<section class="button-section" id="presentacion__button-section-redes">
-            <a href="https://github.com/ClariflaroCode" target="_blank"  >
-              <img src="img/github-redondito-color.png" alt="github" class="github" >
-            </a>
-            <a href="https://www.linkedin.com/in/julieta-watts" class="footer__a" target="_blank" rel="noreferrer"> 
-              <img src="img/linkedin.png" alt="linkedIn-personal">
-            </a>
-          </section>
-          
-            -->
           <section class="button-presentacion">
             <a href="cv/julieta-watts-abraham-cv.pdf" class="button" download data-i18n="descargar-cv"></a>
             <a id="contacto-button" href="#contacto" class="button">
@@ -163,45 +153,6 @@
         
            
           </article>
-          <!--
-          <article class="proyectos__item">
-            <img src="img/chatbot.png" alt="proyecto de chatbot temático de videojuegos en telegram">
-            <div class="card-footer">
-              <h3 class="proyectos__item-titulo">Chatbot de Videojuegos en Telegram</h3>
-              <p class="proyectos__item-descripcion">Agente conversacional hecho con Inteligencia Artificial para la materia de Programación Exploratoria en Ingeniería de Sistemas. El Chatbot es temático de videojuegos y fué implementado con RASA, JSON y Python. </p>
-              <ul class="proyectos__item-lista">
-                <li class="proyectos__item-tecnologia">RASA</li>
-                <li class="proyectos__item-tecnologia">Python</li>
-                <li class="proyectos__item-tecnologia">JSON</li>
-              </ul>
-              <section class="button-section">
-                <a href="https://clariflarocode.github.io/StudyWithGohan/" target="_blank" class="button-project button">Ver proyecto</a>
-
-                <a href="https://github.com/ClariflaroCode/StudyWithGohan" target="_blank"  >
-                  <img src="img/github-redondo.png" alt="github" class="github" >
-                </a>
-              </section>
-            </div>
-          </article>
-          
-          <article class="proyectos__item">
-            <img src="img/gohan.png" alt="clon de telegram hecho con el lenguaje pascal">
-            <div class="card-footer">
-              <h3 class="proyectos__item-titulo">PascalGram</h3>
-              <p class="proyectos__item-descripcion"> Telegram primitivo hecho en Pascal para la materia de Introducción a la Programación 2 en Ingeniería de Sistemas. </p>
-              <ul class="proyectos__item-lista">
-                <li class="proyectos__item-tecnologia">PASCAL</li>
-              </ul>
-              <section class="button-section">
-                <a href="https://clariflarocode.github.io/StudyWithGohan/" target="_blank" class="button-project button">Ver proyecto</a>
-
-                <a href="https://github.com/ClariflaroCode/StudyWithGohan" target="_blank"  >
-                  <img src="img/github-redondo.png" alt="github" class="github" >
-                </a>
-              </section>
-            </div>
-          </article>
-          -->
           
           <article class="proyectos__item">
             <img src="img/exawiki.webp" alt="proyecto de pagina de cursos">
@@ -218,7 +169,6 @@
               </ul>
               <section class="button-section">
                 <a href="https://webi-grupo28.netlify.app/" target="_blank" class="button-project button" rel="noreferrer" data-i18n="ver-proyecto"></a>
-                <!--<a href="https://github.com/ClariflaroCode/ExaWiki" target="_blank"  class="button-project button" rel="noreferrer">Ver proyecto (como SPA)</a>-->
                 <a href="https://github.com/sniyen/TPE-web-I" target="_blank"  >
                   <img src="img/github-redondito-color.png" alt="github" class="github" >
                 </a>
@@ -354,25 +304,12 @@
               <h4 class="estudios__idiomas-nombre" data-i18n="español"></h4>
               <p class="estudios__idiomas-nivel" data-i18n="nativo"></p>
             </article>
-            <!--
-            <article class="estudios__idiomas-item">
-              <h4 class="estudios__idiomas-nombre" data-i18n="italiano">Italiano</h4>
-              <p class="estudios__idiomas-nivel" data-i18n="principiante">Principiante</p>
-            </article>
-      
-            <article class="estudios__idiomas-item">
-              <h4 class="estudios__idiomas-nombre" data-i18n="frances">Francés</h4>
-              <p class="estudios__idiomas-nivel" data-i18n="principiante">Principiante</p>
-            </article>
-            -->
             
           </section>
         </section> 
         <section class="estudios__cursos">
               <h2 class="estudios__cursos-titulo" data-i18n="cursos-y-certificados"></h2>
 
-
-              <!--EN DESARROLLO-->
               <div  class="carrusel-wrapper">
                 <button id="slider-before-arrow" class="slider-arrow">
                   <img src="img/arrow_forward.png" alt="before course">
@@ -548,14 +485,14 @@
               <form id="contacto__formulario" class="card contacto__formulario" >
 
                 <label for="username" class="contacto__label" data-i18n="escribe-tu-nombre"></label>
-                <input type="text" id="username" class="contacto__input" name="username" placeholder="Ingrese su nombre" required>
+                <input type="text" id="username" class="contacto__input" name="username" data-i18n-placeholder="nombre-placeholder" placeholder="Ingrese su nombre" required>
                 <label for="email" class="contacto__label" data-i18n="escribe-tu-mail"></label>
-                <input type="email" id="email" class="contacto__input" name="email" placeholder="Ingrese su mail" required>
+                <input type="email" id="email" class="contacto__input" name="email" data-i18n-placeholder="email-placeholder" placeholder="Ingrese su mail" required>
                 <label for="mensaje" class="contacto__label" data-i18n="describe-tu-proyecto"></label>
-                <textarea placeholder="Escriba su mensaje" id="mensaje" name="mensaje" rows="5" cols="30" class="contacto__textarea" ></textarea>
-                <label for="user-response-captcha" data-i18n="captcha-a-ingresar"></label>
+                <textarea data-i18n-placeholder="message-placeholder" placeholder="Escriba su mensaje" id="mensaje" name="mensaje" rows="5" cols="30" class="contacto__textarea" ></textarea>
+                <label for="user-response-captcha"  data-i18n="captcha-a-ingresar"></label>
                 <p id="captcha-text"></p>
-                <input type="text" id="user-response-captcha" placeholder="Ingrese captcha" required>
+                <input type="text" id="user-response-captcha" data-i18n-placeholder="captcha-placeholder" placeholder="Ingrese captcha" required>
                 <p id="error"></p>
                 <div class="contacto__contenedor-enviar">
                   <button type="submit" id="contacto__enviar" class="button" data-i18n="enviar"></button>
@@ -615,7 +552,7 @@
       </ul>
     </footer>
     <script type="text/Javascript" src="js/main.js"></script>
-    <script type="text/Javascript" src="js/switch_language.js" defer></script> <!--El defer hace que se vaya renderizando mientras carga-->
+    <script type="text/Javascript" src="js/switch_language.js" defer></script> 
     <script type="text/Javascript" src="js/menu-desplegable.js"></script>
     <script type="text/Javascript" src="js/captcha.js" defer></script>
     <script type="text/javascript" src="js/slider.js"></script>

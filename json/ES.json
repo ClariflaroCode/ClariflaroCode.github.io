@@ -120,9 +120,13 @@
         
         "contacta-conmigo": "Contacta conmigo",
         "escribe-tu-nombre": "Escribe tu nombre",
+        "nombre-placeholder": "Ingrese su nombre",
         "escribe-tu-mail": "Escribe tu dirección de correo electrónico",
+        "email-placeholder": "Ingrese su mail",
         "describe-tu-proyecto": "Describe tu proyecto",
+        "message-placeholder":"Escriba su mensaje",
         "captcha-a-ingresar": "Captcha a ingresar:",
+        "captcha-placeholder": "Ingrese captcha",
         "enviar": "Enviar",
         "preferencia-linkedin": "¿Preferís hablar por LinkedIn?",
         "contacto-linkedin":"Contactame por",

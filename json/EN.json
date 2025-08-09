@@ -68,14 +68,24 @@
         "Credencial": "Credential: CER-WD0439K4-312218",
         "habilidades-tecnicas": "Technical Skills",
         "herramientas-de-gestion-y-virtualizacion": "Management and Virtualization Tools",
+
+
+
+
         "contacta-conmigo": "Get in Touch",
         "escribe-tu-nombre": "Enter your name",
+        "nombre-placeholder": "Type your name",
         "escribe-tu-mail": "Enter your email address",
+        "email-placeholder": "Type your email address",
         "describe-tu-proyecto": "Describe your project",
+        "message-placeholder":"Type your message",
         "captcha-a-ingresar": "Captcha to enter:",
+        "captcha-placeholder": "Type the captcha",
         "enviar": "Send",
         "preferencia-linkedin": "Prefer to talk via LinkedIn?",
         "contacto-linkedin": "Contact me on",
+
+
         "conectando": "Connecting...",
         "cerrar": "Close"
     }
