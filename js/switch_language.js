@@ -62,11 +62,11 @@ function iniciarCambioIdioma() {
         if (idiomaSeleccionado == "ES") {
             
             console.log("español");
-            idiomaEscogido.src = "../img/bandera-argentina.png";
+            idiomaEscogido.src = "../img/bandera-argentina.webp";
             idiomaDescripcion.innerHTML = "ES";
         } else { //por defecto está en el idioma universal (?)
             console.log("inglés");
-            idiomaEscogido.src = "../img/bandera-inglesa.png";
+            idiomaEscogido.src = "../img/bandera-inglesa.webp";
             idiomaDescripcion.innerHTML = "EN";    
         }
 

@@ -8,15 +8,22 @@
         "estudios": "Education",
         "habilidades": "Skills",
         "contacto": "Contact",
+
         "presentacion": "Hi, I'm Julieta Abraham",
         "presentacion-profesional": "Advanced student of Systems Engineering and of the University Technical Degree in Software Application Development",
         "descargar-cv": "Download CV",
+
+
         "descripcion-sobre-mi-p1": "My name is Julieta Abraham. Since childhood, I’ve been passionate about art and technology, especially video games. My curiosity and insatiable hunger for knowledge led me, at the age of 15, to take a remote video game development course at the National Technological University of Buenos Aires (UTN). Since then, I fell in love with technology and decided to go deeper, exploring web development and game development courses. When choosing a degree, I opted for Systems Engineering, aiming for a solid foundation in computer science.",
         "descripcion-sobre-mi-p2": "In recent years, I’ve decided to specialize in web development, which I found to be an area I’m deeply passionate about. I'm focused on perfecting my skills to offer quality solutions and experiences. I believe the world is an infinite library to learn from, and I know my constant curiosity and commitment to continuous improvement are my signature in every project I get involved in.",
+
+
         "descripcion-diario": "Digital newspaper with sections created for the Web 1 course in the Application Development program.",
         "ver-proyecto": "View Project",
         "descripcion-gohan": "This is a web productivity project. The application promotes the Pomodoro technique and manages user tasks by 'to do', 'doing', and 'done' in each block. It offers a geeky environment for friends.",
         "descripcion-exawiki": "Website created in collaboration to provide a complementary virtual tool for course learning. I later modified it into a Single Page Application (SPA) to improve the user experience.",
+
+
         "experiencia-docente": "Teaching Experience",
         "introduccion-a-los-sistemas-informaticos": "Introduction to Computer Systems",
         "cargo-ayudante": "Teaching Assistant",
@@ -44,6 +51,9 @@
         "analisis-y-resolucion-de-problemas": "Problem Analysis and Solving",
         "deteccion-y-correccion-de-errores": "Error Detection and Correction",
         "pedagogia": "Pedagogy",
+
+
+
         "formacion-academica": "Academic Background",
         "ingenieria-de-sistemas": "Systems Engineering",
         "-actualidad": "- Present",
@@ -54,6 +64,9 @@
         "Certificado A2": "A2 Certificate - Cambridge Key English Test (KET)",
         "español": "Spanish",
         "nativo": "Native",
+
+
+
         "cursos-y-certificados": "Courses and Certificates",
         "curso-de-html-y-css": "HTML and CSS Course",
         "mayo-2025": "May 2025",
@@ -66,6 +79,8 @@
         "agosto-2018": "August 2018",
         "octubre-2018": "October 2018",
         "Credencial": "Credential: CER-WD0439K4-312218",
+
+        
         "habilidades-tecnicas": "Technical Skills",
         "herramientas-de-gestion-y-virtualizacion": "Management and Virtualization Tools",
 
