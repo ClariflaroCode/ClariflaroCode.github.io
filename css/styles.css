@@ -257,7 +257,7 @@ h2 {
     text-align: center;
     border-radius: 25px;
     box-sizing: border-box;
-    max-height: 500px;
+    /*max-height: 500px;*/
 }
 .proyectos__item-lista{
     box-sizing: border-box;

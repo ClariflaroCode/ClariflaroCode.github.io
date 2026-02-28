@@ -22,6 +22,7 @@
         "ver-proyecto": "View Project",
         "descripcion-gohan": "This is a web productivity project. The application promotes the Pomodoro technique and manages user tasks by 'to do', 'doing', and 'done' in each block. It offers a geeky environment for friends.",
         "descripcion-exawiki": "Website created in collaboration to provide a complementary virtual tool for course learning. I later modified it into a Single Page Application (SPA) to improve the user experience.",
+        "descripcion-os_scheduler": "Pedagogical simulator with CRUD of a process scheduler in 0.S. The user enters a list of processes and chooses an algorithm. The simulation starts and displays the different states the process goes through. At the end, it shows the statistics.",
 
 
         "experiencia-docente": "Teaching Experience",

@@ -20,7 +20,7 @@ function iniciarCambioIdioma() {
         }
 
         //importo el json con las traducciones
-        fetch(`../json/${idioma}.json`)
+        fetch(`json/${idioma}.json`)
         .then(response => response.json())
         .then(data => {
             traducciones[idioma] = data[idioma];
@@ -62,11 +62,11 @@ function iniciarCambioIdioma() {
         if (idiomaSeleccionado == "ES") {
             
             console.log("español");
-            idiomaEscogido.src = "../img/bandera-argentina.webp";
+            idiomaEscogido.src = "img/bandera-argentina.webp";
             idiomaDescripcion.innerHTML = "ES";
         } else { //por defecto está en el idioma universal (?)
             console.log("inglés");
-            idiomaEscogido.src = "../img/bandera-inglesa.webp";
+            idiomaEscogido.src = "img/bandera-inglesa.webp";
             idiomaDescripcion.innerHTML = "EN";    
         }
 

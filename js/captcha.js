@@ -179,7 +179,7 @@ function start() {
     .then((response) => {
       response.text().then((result) => {
         mensajeExitoFracaso.innerHTML = "Mensaje enviado con éxito";
-        img.src = "../img/gif/pusheen-hi3.png";
+        img.src = "img/gif/pusheen-hi3.png";
         closeButton.classList.add("show");
         console.log("mensaje enviado");
         form.reset();
@@ -189,7 +189,7 @@ function start() {
     })
     .catch((error) => {
       mensajeExitoFracaso.innerHTML = "El mensaje no se pudo enviar";
-      img.src = "../img/gif/pusheen-lluvia.gif";
+      img.src = "img/gif/pusheen-lluvia.gif";
       closeButton.classList.add("show");
       console.error("error al enviar");
       captchaGenerator();

@@ -27,6 +27,8 @@
         "ver-proyecto": "Ver proyecto",
         "descripcion-gohan": "Este proyecto es un proyecto web para productividad. La aplicación impulsa el método pomodoro y gestiona las tareas del usuario por hacer, haciendo y terminadas en cada bloque. Ofrece un entorno friki para los amigos.",
         "descripcion-exawiki": "Sitio web creado en colaboración  con el objetivo de brindar una herramienta virtual complementaria para el aprendizaje de cursos. Posteriormente lo modifiqué para que fuese una Single Page Application (SPA) y mejorar la experiencia de usuario",
+        "descripcion-videoclub": "Catálogo de películas realizado para la materia de Web 2 en colaboración. Utiliza el patrón de diseño MVC(model view controller) y middlewares.",
+        "descripcion-os_scheduler": "Simulador educativo con ABM de un planificador de procesos del S.O. Dada una lista de procesos y un algoritmo de planificación, se ejecuta una simulación que muestra los distintos estados por los que pasa un proceso dentro del S.O; una vez finalizada, el sitio registra los resultados para mostrar estadísticas. ",
         
 
 
