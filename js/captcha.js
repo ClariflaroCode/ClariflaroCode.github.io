@@ -167,7 +167,7 @@ function start() {
     modal.showModal();
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbyO47g7ktxABHRa2loqmH9a_dgqguEnYULfB9SoEPUdf3uA6T8sL5eQdQiaxdb2lrZ9pA/exec",
+      "https://script.google.com/macros/s/AKfycbwyYuVihttx7R44-gCXbFfniYjXt7aDHShhvyjUASu6B5wcBShcBgSc-49ldmlQaCv1/exec",
       {
         method: "POST",
         headers: {
